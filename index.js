@@ -1,0 +1,12 @@
+const sort = require('./sort')
+const arrayHelper = require('./helpers/array')
+
+const ascendingArray = arrayHelper.ascending(10)
+const descendingArray = arrayHelper.descending(10)
+const randomArray = arrayHelper.random(10)
+// sort.selection(randomArray)
+// sort.bubble(randomArray)
+// sort.insertion(randomArray)
+// sort.mergeSort(randomArray)
+// sort.quick(randomArray)
+sort.tim(randomArray)
